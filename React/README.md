@@ -76,7 +76,7 @@ La lógica de interacción está separada en funciones en `store/listStore.js` y
 
 ```bash
 npm install
-npm start
+npm run start
 ```
 
 Aplicación corre en: [http://localhost:3000](http://localhost:3000)
