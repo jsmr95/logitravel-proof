@@ -1,0 +1,27 @@
+<html>
+    <header>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src="helpers/actions.js"></script>
+        <script src="helpers/title.js" defer></script>
+        <!-- Se usa defer para asegurarnos que el DOM ya existe, tambien se podría poner al final del body y evitamos el defer-->
+    </header>
+    <body>
+        <main id="mainContainer">
+            <!-- Aqui irá el componente Title -->
+            <div id="container">
+                <ul id="list">
+                    <li onclick="select(event)" ondblclick="remove(event)">Item 1</li>
+                    <li onclick="select(event)" ondblclick="remove(event)">Item 2</li>
+                    <li onclick="select(event)" ondblclick="remove(event)">Item 3</li>
+                    <li onclick="select(event)" ondblclick="remove(event)">Item 4</li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <button id="undoButton" onclick="undoAction()"><img src=./utils/undo.svg alt="Undo.svg" /></button>
+                <button id="deleteButton" onclick="deleteElements()">DELETE</button>
+                <button id="addButton" onclick="openBox()">ADD</button>
+            </div>
+        </main>
+    </body>
+</html>

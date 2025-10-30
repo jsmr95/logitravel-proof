@@ -1,0 +1,66 @@
+body {
+    background-color: #cce7ff;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#mainContainer {
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px 32px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 35%;
+}
+
+#list {
+    background-color: #F0F0F0;
+    padding: 15px 20px 30px 20px;
+    text-align: left;
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    border: 1.5px solid #DBD9D9;
+}
+
+#list li {
+    margin-bottom: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #2757F5;
+}
+
+button {
+    border-color: #2757F5;
+    border-radius: 15px;
+    width: 80px;
+    height: 35px;
+    background-color: white;
+    color: #2757F5;
+    border-width: 1px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+img {
+    width: 30px;
+}
+
+#addButton {
+    margin-left: auto;
+    background-color: #2757F5;
+    color: white;
+}
+#undoButton {
+    width: 50px;
+}
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "text": "Item 1",
+      "selected": false
+    },
+    {
+      "id": 2,
+      "text": "Item 2",
+      "selected": false
+    },
+    {
+      "id": 3,
+      "text": "Item 3",
+      "selected": false
+    },
+    {
+      "id": 4,
+      "text": "Item 4",
+      "selected": false
+    }
+  ],
+  "title": "This is a technical proof",
+  "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, excepturi amet mollitia accusamus pariatur voluptatem expedita ratione assumenda saepe ullam nemo adipisci odit, placeat rerum voluptas, ex iusto porro impedit."
+}
